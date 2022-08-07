@@ -1,0 +1,42 @@
+{
+    "<class 'str'>": 
+    [
+        ["string", "str"], 
+        "A string is used to store text data (letters, numbers and symbols), and is wrapped in quotation marks."
+    ],
+    "<class 'int'>": 
+    [
+        ["integer", "int"], 
+        "An integer is a whole number, which can be negative or positive."
+    ],
+    "<class 'float'>": 
+    [
+        ["floating-point", "floating point", "float"], 
+        "A floating point or float, is a number with a decimal point, used to store fractional or very large numbers."
+    ],
+    "<class 'bool'>": 
+    [
+        ["boolean", "bool"], 
+        "A boolean is either True or False. In python they are capitalized and are not wrapped in quotation marks."
+    ],
+    "<class 'list'>": 
+    [
+        ["list"], 
+        "Lists are used to store multiple items that are ordered, changeable, and can be duplicates. In python, a list is enclosed with '[' and ']', with commas between items."
+    ],
+    "<class 'dict'>": 
+    [
+        ["dictionary", "dict"], 
+        "Dictionaries are used to store data in key:value pairs. In a dictionary, iterms are ordered, changeable, and cannot be duplicates. In python, a dictionary is enclosed with '{' and '}', with colons between the key and item, and commas between the different pairs."
+    ],
+    "<class 'tuple'>": 
+    [
+        ["tuple"], 
+        "Tuples are used to store multiple items thats are ordered and unchangable. In python, a tuple is enclosed with '(' and ')', with commas between items."
+    ],
+    "<class 'set'>": 
+    [
+        ["set"], 
+        "Sets are used to store multiple items that are unordered, unchangable, and unindexed. In python, a set is enclosed with '{' and '}', with commas between items"
+    ]
+}

@@ -1,0 +1,35 @@
+[
+    [
+        "Is informal communication helpful in a formal work environment?",
+        [   "yes", 
+            "no"],
+        "Informal communication between team members helps facilitate the flow of knowledge and expertise."
+    ],
+    [
+        "What is successful communication?",
+        [   "when a message is understood precisely by the recipient", 
+            "when the recipient has recieved the message", 
+            "A message that has been delivered briefly, as to not waste time."],
+        "If the recipient does not understand the full/exact meaning of the message, progress is often delayed as a result."
+    ],
+    [
+        "which of the following is not a skill necessary for working successfully in teams:",
+        [   "having vast knowledge and technical skills",
+            "openness and willingness to share and accept other ideas", 
+            "commitment to team's performance over individual performance", 
+            "support of other team members"],
+        "Vast knowledge and technical skills is very useful, but does not help improve teamwork."
+    ],
+    [
+        "Is creativity restricted to artistic endeavors?",
+        [   "no",
+            "yes"],
+        "Creativity encompasses any original or new thought, and is essential for the development of software."
+    ],
+    [
+        "How do design skills relate to software design?",
+        [   "Design skills are necessary for the creation of system models and producing algorithms", 
+            "Design skills are used to create the tables and chairs that software developers use"],
+        ""
+    ]
+]

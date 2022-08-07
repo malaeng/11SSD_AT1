@@ -1,0 +1,135 @@
+[
+    {
+        "name": "sword",
+        "text": "You see a sword laying discarded on the floor.",
+        "difficultyrange": [],
+        "basegoldincrease": 0,
+        "basecombatincrease": 5,
+        "option1": "pick it up",
+        "option1_outcomes" : ["INCREASE_STAT", "COMBAT_ABILITY", "You pick up the sword."],
+        "option2": "leave it",
+        "option2_outcomes" : ["You leave the sword behind and continue trying to find the exit to the maze. A howl sounds from somewhere in the maze, and you start to regret not taking the weapon."]
+    },
+    {
+        "name": "minotaur",
+        "text": "The minataur, a beast with the body of a man and the head of a bull, rounds the next corner.",
+        "difficultyrange": [10, 20],
+        "basegoldincrease": 0,
+        "basecombatincrease": 0,
+        "option1": "fight",
+        "option1_outcomes" : ["COMBAT"],
+        "option2": "try to flee",
+        "option2_outcomes" : ["FLEE"]
+    },
+    {
+        "name": "witches",
+        "text": "As you continue on in the maze, smoke starts surrounding you. You see various creatures lurking in the smoke and hear laughter. Suddenly you are in front of a group of witches. They demand you answer their riddle.",
+        "difficultyrange": [15, 25],
+        "basegoldincrease": 0,
+        "basecombatincrease": 0,
+        "option1": "fight",
+        "option1_outcomes" : ["COMBAT"],
+        "option2": "agree",
+        "option2_outcomes" : ["RIDDLE"]
+    },
+    {
+        "name": "skeleton",
+        "text": "A skeleton is wandering the maze, blocking your path. It's holding a sword and shield, and is animated by some kind of dark magic",
+        "difficultyrange": [3, 18],
+        "basegoldincrease": 0,
+        "basecombatincrease": 0,
+        "option1": "fight",
+        "option1_outcomes" : ["COMBAT"],
+        "option2": "flee",
+        "option2_outcomes" : ["FLEE"]
+    },
+    {
+        "name": "chest",
+        "text": "You find a chest. Do you risk opening it, or leave it behind?",
+        "difficultyrange": [],
+        "basegoldincrease": 40,
+        "basecombatincrease": 0,
+        "option1": "open",
+        "option1_outcomes" : ["INCREASE_STAT", "GOLD"],
+        "option2": "leave it",
+        "option2_outcomes" : ["You leave the chest behind."]
+    },
+    {
+        "name": "armour",
+        "text": "you find a rusted set of armour.",
+        "difficultyrange": [],
+        "basegoldincrease": 0,
+        "basecombatincrease": 8,
+        "option1": "put it on",
+        "option1_outcomes" : ["INCREASE_STAT", "COMBAT_ABILITY"],
+        "option2": "leave it",
+        "option2_outcomes" : []
+    },
+    {
+        "name": "slime",
+        "text": "A slime blocks your path. It looks like it could swallow you whole.",
+        "difficultyrange": [1, 15],
+        "basegoldincrease": 0,
+        "basecombatincrease": 0,
+        "option1": "fight",
+        "option1_outcomes" : ["COMBAT"],
+        "option2": "flee",
+        "option2_outcomes" : ["FLEE"]
+    },
+    {
+        "name": "sphynx",
+        "text": "A sphynx guards the way. It demands you answer the riddle if you want to pass.",
+        "difficultyrange": [20, 25],
+        "basegoldincrease": 0,
+        "basecombatincrease": 0,
+        "option1": "agree",
+        "option1_outcomes" : ["RIDDLE"],
+        "option2": "flee",
+        "option2_outcomes" : ["FLEE"]
+    },
+    {
+        "name": "mutant rat",
+        "text": "A giant rat, the size of a dog, scurries towards you, it's sharp claws making marks in the ground as it moves.",
+        "difficultyrange": [7, 20],
+        "basegoldincrease": 0,
+        "basecombatincrease": 0,
+        "option1": "fight",
+        "option1_outcomes" : ["COMBAT"],
+        "option2": "flee",
+        "option2_outcomes" : ["FLEE"]
+    },
+    {
+        "name": "healing fountain",
+        "text": "You come across a healing fountain. There is gold at the bottom, but if taken, it does not allow you to heal.",
+        "difficultyrange": [-10, -20],
+        "basegoldincrease": 10,
+        "basecombatincrease": 0,
+        "basehealthincrease": 20,
+        "option1": "heal",
+        "option1_outcomes" : ["INCREASE_STAT", "HEALTH"],
+        "option2": "grab the gold",
+        "option2_outcomes" : ["INCREASE_STAT", "GOLD"]
+    },
+    {
+        "name": "crazyman",
+        "text": "A half-naked man runs towards you, his eyes wild and his hair left uncut. He suddenly screams and starts running faster towards you.",
+        "difficultyrange": [10, 19],
+        "basegoldincrease": 0,
+        "basecombatincrease": 0,
+        "option1": "fight him",
+        "option1_outcomes" : ["COMBAT"],
+        "option2": "flee",
+        "option2_outcomes" : ["FLEE"]
+    },
+    {
+        "name": "wolf pack",
+        "text": "You hear howling in the distance. You try to stay quiet, but to no avail. The wolves are upon you.",
+        "difficultyrange": [5, 16],
+        "basegoldincrease": 0,
+        "basecombatincrease": 0,
+        "option1": "fight",
+        "option1_outcomes" : ["COMBAT"],
+        "option2": "flee",
+        "option2_outcomes" : ["FLEE"]
+    }
+]
